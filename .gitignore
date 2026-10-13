@@ -1,0 +1,7 @@
+/build/
+/output/
+*.tmp
+.DS_Store
+__pycache__/
+/aegis-data/
+/example-data/

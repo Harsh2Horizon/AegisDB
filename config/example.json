@@ -1,0 +1,30 @@
+{
+  "host": "127.0.0.1",
+  "port": 8080,
+  "database_directory": "aegis-data",
+  "io_threads": 2,
+  "workers": 4,
+  "max_connections": 64,
+  "max_request_bytes": 33554432,
+  "timeout_ms": 10000,
+  "snapshot_ttl_seconds": 300,
+  "max_server_snapshots": 128,
+  "max_maintenance_operations": 64,
+  "storage": {
+    "memtable_bytes": 4194304,
+    "wal_segment_bytes": 8388608,
+    "max_immutable_memtables": 4,
+    "block_bytes": 16384,
+    "table_bytes": 4194304,
+    "block_cache_bytes": 33554432,
+    "level_count": 7,
+    "level_one_bytes": 16777216,
+    "level_ratio": 10,
+    "l0_compaction_files": 4,
+    "l0_stop_files": 16,
+    "bloom_false_positive_rate": 0.01,
+    "automatic_compaction": true,
+    "verify_tables_on_open": true,
+    "write_timeout_ms": 5000
+  }
+}
